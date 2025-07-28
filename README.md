@@ -1,34 +1,48 @@
-# 🏨 Hostel Management System (Java + Hibernate)
+# 🏨 Hostel Management System
 
-A powerful backend system to manage hostel operations — including room allocation, user login, service request handling, and hostel rule generation. Built with Java 17,  Hibernate ORM, and MySQL, the system follows enterprise-grade practices using a clean, modular architecture.
+![Java](https://img.shields.io/badge/Java-17-blue.svg)
+![Hibernate](https://img.shields.io/badge/Hibernate-ORM-red.svg)
+![MySQL](https://img.shields.io/badge/MySQL-Database-yellow.svg)
+![Maven](https://img.shields.io/badge/Maven-Build-orange.svg)
+![JavaMail](https://img.shields.io/badge/JavaMail-API-green.svg)
+![PDF](https://img.shields.io/badge/PDF-iText%2FFPDF-lightgrey.svg)
+
+---
+
+## 📋 Overview
+
+A robust and modular backend system to manage hostel operations — including room allocation, user login, service request handling, PDF rule generation, and OTP email verification. Built with **Java 17**, **Hibernate ORM**, and **MySQL**, it follows enterprise-grade practices with a clean multi-layered architecture.
 
 ---
 
 ## 🚀 Key Features
 
-- ✅ **Layered Architecture** (Configuration → Controller → DAO → Service → Entity)
-- 🧾 Hostel rules PDF generation module
-- ✉️ OTP-based email service integration using JavaMail
-- 🔒 Secure structure, ready to extend with Spring Security
-- 📚 User interface console (for testing basic functionality)
+- ✅ **Layered Architecture** (`Configuration → Controller → DAO → Service → Entity`)
 - 🛏️ Room allocation logic with user mapping
+- 🧾 Hostel rules **PDF generation**
+- ✉️ **OTP email** service integration using JavaMail
+- 📚 Console-based user interface for quick testing
+- 🔒 Secure structure, ready to extend with Spring Security
+
 ---
 
 ## 🛠️ Tech Stack
 
 | Component         | Technology Used               |
 |-------------------|-------------------------------|
-| Language          | Java 17                       |             |
+| Language          | Java 17                       |
 | ORM               | Hibernate + JPA               |
 | Database          | MySQL                         |
 | Build Tool        | Maven                         |
 | Email Service     | JavaMail API                  |
-| PDF Generation    | iText / Java FPDF Generator   |
-| IDE               | Eclipse / IntelliJ            |
+| PDF Generator     | iText / Java FPDF Generator   |
+| IDE               | Eclipse / IntelliJ IDEA       |
 
 ---
 
 ## 🧱 Project Structure
+
+
 ```
 com.hostel/
 ├── Configuration/
@@ -55,8 +69,8 @@ com.hostel/
 ├── hibernate.cfg.xml # Hibernate DB config
 └── application.properties # Spring Boot config
 ```
-
 ---
+
 ### 📦 How to Download & Run
 
 - Download the ZIP file or clone the repo  
@@ -67,14 +81,16 @@ com.hostel/
 
 ---
 
-For quick local testing and interaction without frontend:
+## 🧪 Console UI Features (User_Interface.java)
 
-- Register user (masked password)
-- Book insertion, search, deletion (from an old library logic)
+For quick local testing without a full frontend:
+
+- Register user (with masked password)
+- Book insertion, search, deletion (based on test library logic)
 - Search by author, year, keyword
-- Demonstrates user-driven flow through Scanner I/O
+- Demonstrates user-driven interaction via Scanner I/O
 
-> ✅ You can swap this dummy frontend later with a React, Angular, or Flutter UI.
+> ✅ You can later replace this dummy frontend with React, Angular, or Flutter UI.
 
 ---
 
@@ -82,18 +98,18 @@ For quick local testing and interaction without frontend:
 
 - ✅ Follows **SOLID** principles
 - ✅ Clean separation of concerns
-- ✅ All CURD operation with special features like mail and pdf generation
-- ✅ Easily extendable for Spring Security, Docker, or Swagger
+- ✅ Supports all CRUD operations + PDF/email features
+- ✅ Easily extendable with Spring Security, Swagger, and Docker
 
 ---
 
-## 📦 Future Enhancements
+## 🚧 Future Enhancements
 
-- 🔐 Spring Security for login auth
-- 📊 Admin dashboard panel with metrics
-- 🐳 Docker support for easy deployment
-- ☁️ Cloud MySQL + Email Gateway integration
-- 🧪 JUnit + Mockito test coverage
+- 🔐 Spring Security for authentication
+- 📊 Admin dashboard panel with analytics
+- 🐳 Docker support for containerized deployment
+- ☁️ Cloud DB & hosted email gateway integration
+- 🧪 Unit testing with JUnit + Mockito
 
 ---
 
@@ -105,6 +121,3 @@ For quick local testing and interaction without frontend:
 🌐 GitHub: [Darkegale12](https://github.com/Darkegale12)
 
 ---
-
-
-
