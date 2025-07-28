@@ -1,4 +1,4 @@
-# 🏨 Hostel Management System
+# Hostel Management System
 
 ![Java](https://img.shields.io/badge/Java-17-blue.svg)
 ![Hibernate](https://img.shields.io/badge/Hibernate-ORM-red.svg)
